@@ -1,0 +1,24 @@
+# Environment
+.env
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Data
+data/posts/*
+data/comments/*
+data/analysis/*
+!data/**/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
