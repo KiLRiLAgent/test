@@ -1,0 +1,200 @@
+{
+  "comment_patterns": {
+    "description": "Паттерны успешных комментариев для генерации",
+
+    "opening_patterns": {
+      "agreement": [
+        "Согласен!",
+        "Абсолютно согласен!",
+        "Точно!",
+        "Да, именно так!",
+        "100% согласен",
+        "Totally agree!",
+        "Absolutely!",
+        "So true!",
+        "Exactly!"
+      ],
+      "personal_experience": [
+        "У меня был похожий опыт...",
+        "Я сталкивался с этим когда...",
+        "По моему опыту...",
+        "Из личного опыта могу сказать...",
+        "I had a similar experience...",
+        "I've been through this...",
+        "In my experience...",
+        "From my perspective..."
+      ],
+      "gratitude": [
+        "Спасибо за пост!",
+        "Благодарю за инсайты!",
+        "Спс за статью!",
+        "Thanks for sharing!",
+        "Thank you for this!",
+        "Appreciate the insights!"
+      ],
+      "question": [
+        "А как вы считаете...",
+        "Интересно, а...",
+        "Вопрос: ...",
+        "What do you think about...",
+        "How would you...",
+        "Quick question..."
+      ],
+      "insight": [
+        "Интересная мысль!",
+        "Отличное наблюдение!",
+        "Зацепил момент про...",
+        "Great point!",
+        "Interesting perspective!",
+        "Love this take!"
+      ]
+    },
+
+    "middle_patterns": {
+      "storytelling": [
+        "Когда я работал в {company}, столкнулся с...",
+        "Помню случай, когда...",
+        "Был у меня один клиент, который...",
+        "When I was at {company}, I faced...",
+        "I remember when...",
+        "Had a client who..."
+      ],
+      "value_add": [
+        "Попробуйте {action} - мне помогло",
+        "Рекомендую посмотреть на {aspect}",
+        "Может быть полезно {suggestion}",
+        "Try {action} - worked for me",
+        "I'd recommend looking at {aspect}",
+        "Might be helpful to {suggestion}"
+      ],
+      "agreement_with_nuance": [
+        "Согласен, хотя есть один момент...",
+        "Да, но также стоит учесть...",
+        "Абсолютно, и еще добавлю что...",
+        "Agree, though one thing to consider...",
+        "Yes, but also worth noting...",
+        "Totally, and I'd add that..."
+      ]
+    },
+
+    "closing_patterns": {
+      "question": [
+        "А как у вас с этим?",
+        "У вас был похожий опыт?",
+        "Что думаете?",
+        "How's your experience?",
+        "Have you faced this?",
+        "What do you think?"
+      ],
+      "call_to_action": [
+        "Попробуйте и напишите результат!",
+        "Поделитесь опытом!",
+        "Давайте обсудим!",
+        "Try it and let me know!",
+        "Share your experience!",
+        "Let's discuss!"
+      ],
+      "insight": [
+        "Главное - не бояться экспериментировать",
+        "В этом и есть суть",
+        "Вот в чем секрет",
+        "That's the key",
+        "That's what matters",
+        "That's the secret"
+      ]
+    },
+
+    "emotional_elements": {
+      "emojis": {
+        "agreement": ["👍", "✅", "💯", "👏"],
+        "excitement": ["🔥", "🚀", "✨", "⚡"],
+        "thinking": ["🤔", "💭", "💡", "🧐"],
+        "gratitude": ["🙏", "❤️", "😊", "🙌"],
+        "celebration": ["🎉", "🎊", "🥳", "🏆"]
+      },
+      "intensifiers": [
+        "реально",
+        "очень",
+        "крутооо",
+        "вообще",
+        "really",
+        "super",
+        "totally",
+        "definitely"
+      ],
+      "casual_words": [
+        "круто",
+        "классно",
+        "топ",
+        "кстати",
+        "вообще",
+        "короче",
+        "cool",
+        "awesome",
+        "btw",
+        "tbh",
+        "basically"
+      ]
+    },
+
+    "avoid": {
+      "ai_phrases": [
+        "it's worth noting",
+        "it's important to",
+        "furthermore",
+        "moreover",
+        "in conclusion",
+        "delve into",
+        "dive deep",
+        "leverage",
+        "стоит отметить",
+        "важно понимать",
+        "более того",
+        "в заключение",
+        "необходимо учитывать"
+      ],
+      "too_formal": [
+        "следовательно",
+        "соответственно",
+        "безусловно",
+        "consequently",
+        "accordingly",
+        "undoubtedly",
+        "nevertheless"
+      ]
+    }
+  },
+
+  "platform_specific": {
+    "linkedin": {
+      "tone": "professional but warm",
+      "length": "medium to long",
+      "emoji_usage": "moderate",
+      "personal_experience": "highly valued",
+      "examples": [
+        "Согласен! У меня был похожий опыт когда работал в {company}. Главное что я понял - {insight}. Кстати, {question}?",
+        "Отличный пост! По моему опыту, {personal_insight}. Попробуйте {suggestion} - мне очень помогло 💡"
+      ]
+    },
+    "twitter": {
+      "tone": "casual and witty",
+      "length": "short to medium",
+      "emoji_usage": "high",
+      "personal_experience": "appreciated but brief",
+      "examples": [
+        "Согласен! У меня так же было 😅 Главное - {insight}",
+        "Точно! Кстати, {question}? 🤔"
+      ]
+    },
+    "facebook": {
+      "tone": "friendly and conversational",
+      "length": "medium",
+      "emoji_usage": "high",
+      "personal_experience": "highly valued",
+      "examples": [
+        "Ого! У меня была похожая ситуация... {story}. В итоге {outcome} 😊",
+        "Спасибо за пост! Очень актуально. У меня {experience}. А как у вас? 🤗"
+      ]
+    }
+  }
+}
