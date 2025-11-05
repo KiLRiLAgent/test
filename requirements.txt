@@ -11,6 +11,9 @@ playwright==1.40.0
 # LinkedIn API (неофициальная)
 linkedin-api==2.2.0
 
+# Reddit API
+praw==7.7.1
+
 # AI и NLP
 openai==1.3.0
 anthropic==0.7.0
